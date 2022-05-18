@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  background-color: white;
+  padding: 15px;
+  border-radius: 1em;
+  color: rgb(37, 7, 54);
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: big john;
+  text-transform: uppercase;
+}
+div:nth-child(1) {
+  background-image: url("/images/Anton_Kaulbach_Faust_und_Mephisto.jpg");
+  background-size: contain;
+  width: 50% auto;
+  background-repeat: no-repeat;
+}
+div:nth-child(2) {
+  background-image: url("https://visionsforscher.de/wp-content/uploads/2019/11/Black_hole-1030x687.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+div:nth-child(3) {
+  background-image: url("https://www.kuriose-feiertage.de/wp-content/uploads/2015/11/Kuriose-Feiertage-9.-November-Tag-des-ewigen-Chaos-%E2%80%93-der-US-amerikanische-Chaos-Never-Dies-Day-c-2015-Sven-Giese.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div:nth-child(4) {
+  background-image: url("https://www.stuttgarter-nachrichten.de/media.media.267581e0-26b1-4983-90b7-ae07abdd0b25.16x9_1024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
