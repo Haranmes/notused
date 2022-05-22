@@ -1,10 +1,12 @@
 {
+  "homepage": "https://Haranmes.github.io/Haranmes.github.io",
   "name": "faust",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,10 @@
   "bugs": {
     "url": "https://github.com/Haranmes/Faust/issues"
   },
-  "homepage": "https://github.com/Haranmes/Faust#readme",
   "dependencies": {
     "@react-spring/parallax": "^9.4.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
