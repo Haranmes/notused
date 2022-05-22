@@ -1,20 +1,17 @@
 {
   "files": {
     "main.css": "/Haranmes.github.io/static/css/main.1aac65e5.css",
-    "main.js": "/Haranmes.github.io/static/js/main.9d10b326.js",
+    "main.js": "/Haranmes.github.io/static/js/main.d7698e24.js",
     "static/js/787.28cb0dcd.chunk.js": "/Haranmes.github.io/static/js/787.28cb0dcd.chunk.js",
     "static/media/Gretchen.jpg": "/Haranmes.github.io/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
-    "static/media/walking.jpg": "/Haranmes.github.io/static/media/walking.51466b13cd421cfb7564.jpg",
     "static/media/dark.jpg": "/Haranmes.github.io/static/media/dark.d474c1cb5140b14e79d9.jpg",
-    "static/media/moon.jpg": "/Haranmes.github.io/static/media/moon.6e107548a3e1fde80026.jpg",
-    "static/media/logo.svg": "/Haranmes.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Haranmes.github.io/index.html",
     "main.1aac65e5.css.map": "/Haranmes.github.io/static/css/main.1aac65e5.css.map",
-    "main.9d10b326.js.map": "/Haranmes.github.io/static/js/main.9d10b326.js.map",
+    "main.d7698e24.js.map": "/Haranmes.github.io/static/js/main.d7698e24.js.map",
     "787.28cb0dcd.chunk.js.map": "/Haranmes.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1aac65e5.css",
-    "static/js/main.9d10b326.js"
+    "static/js/main.d7698e24.js"
   ]
 }
