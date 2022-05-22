@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './App.css';
 import { useRef } from 'react';
-import land  from './images/moon.jpg';
-import walking from './images/walking.jpg'
+
 import dark from './images/dark.jpg'
 import Gretche from './images/Gretchen.jpg'
-const Gretchen = require("./images/Gretchen.jpg");
+
  
 function App() {
   const ref = useRef();
