@@ -1,2 +1,0 @@
-!function(){var o=document.querySelectorAll(".parralax");addEventListener("scroll",(function(){var n=window.scrollY;o.forEach((function(o){o.style.backgroundPositionY=.7*(n-o.offsetTop)+"px"}))}))}();
-//# sourceMappingURL=main.7018e5cc.js.map
