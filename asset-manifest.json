@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.1aac65e5.css",
-    "main.js": "/my-app/static/js/main.2ed86779.js",
-    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Gretchen.jpg": "/my-app/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
-    "static/media/dark.jpg": "/my-app/static/media/dark.d474c1cb5140b14e79d9.jpg",
-    "index.html": "/my-app/index.html",
-    "main.1aac65e5.css.map": "/my-app/static/css/main.1aac65e5.css.map",
-    "main.2ed86779.js.map": "/my-app/static/js/main.2ed86779.js.map",
-    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Haranmes.github.io/static/css/main.1aac65e5.css",
+    "main.js": "/Haranmes.github.io/static/js/main.d7698e24.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Haranmes.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Gretchen.jpg": "/Haranmes.github.io/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
+    "static/media/dark.jpg": "/Haranmes.github.io/static/media/dark.d474c1cb5140b14e79d9.jpg",
+    "index.html": "/Haranmes.github.io/index.html",
+    "main.1aac65e5.css.map": "/Haranmes.github.io/static/css/main.1aac65e5.css.map",
+    "main.d7698e24.js.map": "/Haranmes.github.io/static/js/main.d7698e24.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Haranmes.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1aac65e5.css",
-    "static/js/main.2ed86779.js"
+    "static/js/main.d7698e24.js"
   ]
 }
