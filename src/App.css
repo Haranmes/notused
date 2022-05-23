@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+#App {
+  background-color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,6 +12,14 @@
 #h3 {
   color: #fff;
  font-size: 30px;
+}
+#h2 {
+  color: #fff;
+  font-style: italic;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 70px;
 }
 
 
