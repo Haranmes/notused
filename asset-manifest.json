@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.522e5768.css",
-    "main.js": "/static/js/main.da64ef62.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/static/css/main.d4cfe8b4.css",
+    "main.js": "/static/js/main.4a77ea4e.js",
+    "static/media/two.jpg": "/static/media/two.46480e11bfb9307722cb.jpg",
+    "static/media/Schlafzimmer.jpg": "/static/media/Schlafzimmer.ecf34467ad8b81f35591.jpg",
+    "static/media/Trees.png": "/static/media/Trees.1db78bd6b55975e506e5.png",
+    "static/media/Straße.jpg": "/static/media/Straße.6ddff5900415dd15fd22.jpg",
     "static/media/Gretchen.jpg": "/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
     "static/media/black.jpg": "/static/media/black.8fad0f4ebee55cf4a981.jpg",
+    "static/media/schrank.jpg": "/static/media/schrank.c3b27e275d04934c159a.jpg",
     "static/media/dark.jpg": "/static/media/dark.18f67a0fdae0771bc00a.jpg",
+    "static/media/fog-1.png": "/static/media/fog-1.f941d9347efb2a3e7d1d.png",
+    "static/media/fog-2.png": "/static/media/fog-2.8aeda6af6c952275e3de.png",
+    "static/media/sky.jpg": "/static/media/sky.bb00881bbd33e1dab095.jpg",
     "index.html": "/index.html",
-    "main.522e5768.css.map": "/static/css/main.522e5768.css.map",
-    "main.da64ef62.js.map": "/static/js/main.da64ef62.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.d4cfe8b4.css.map": "/static/css/main.d4cfe8b4.css.map",
+    "main.4a77ea4e.js.map": "/static/js/main.4a77ea4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.522e5768.css",
-    "static/js/main.da64ef62.js"
+    "static/css/main.d4cfe8b4.css",
+    "static/js/main.4a77ea4e.js"
   ]
 }
