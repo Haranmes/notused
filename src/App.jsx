@@ -6,9 +6,8 @@ import dark from './images/dark.jpg';
 import Trees from './images/Trees.png'
 import Gretche from './images/Gretchen.jpg'
 import black from './images/black.jpg'
-import schrank from './images/schrank.jpg'
-import schlaf from './images/Schlafzimmer.jpg'
-import street from './images/Straße.jpg'
+
+import street from './images/street.jpg'
 import sky from './images/sky.jpg'
 import two from './images/two.jpg'
 
@@ -101,15 +100,17 @@ const App = () => {
             id="street"
             style={{ 
                 backgroundImage: `url(${street})`,
-                backgroundSize: 'cover',
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundColor: 'white'
                 
             }}>
             <a
-            href="https://reactjs.org"
+            href="https://haranmes.github.io/book-for-faust/"
             target="_blank"
             rel="noopener noreferrer"
             >
-                {/*<button class="btn-11 custom-btn">dsafdf</button>*/}
+                <button class="btn-11 custom-btn">dsafdf</button>
             </a>
                 
             </ParallaxLayer>
