@@ -1,7 +1,7 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useRef } from 'react';
 
-import './App.css';
+import './App.css'
 import dark from './images/dark.jpg';
 import Trees from './images/Trees.png'
 import Gretche from './images/Gretchen.jpg'
@@ -11,15 +11,23 @@ import schlaf from './images/Schlafzimmer.jpg'
 import street from './images/Straße.jpg'
 import sky from './images/sky.jpg'
 import two from './images/two.jpg'
-import border from './images/border.jpg'
 
 
 
-function App() {
-    
+const App = () => {
+   
     const ref = useRef();
     return(
-        <div id="App">
+        
+        <div id="Home"> 
+        <div>
+       
+       
+        
+        </div>
+       
+       
+       
         <Parallax pages={8} ref={ref}>
             <ParallaxLayer id="chaos"
             offset={0}
@@ -28,7 +36,7 @@ function App() {
             style={{
                 backgroundImage: `url(${two})`,
                 backgroundSize: 'contain',
-               backgroundPosition: 'center',
+                backgroundPosition: 'center',
                 backgroundColor: 'black'
             }}
             >
@@ -65,13 +73,13 @@ function App() {
                 backgroundImage: `url(${black})`,
                 backgroundSize: 'cover',
                 textAlign: 'center' , 
-                
             }}
             >
                 <h3 id="h2">"Meine Ruh ist hin, <br></br>
                             Mein Herz ist schwer; <br></br>
                             Ich finde sie nimmer <br></br>
                             und nimmermehr." - <br></br>Gretchen,  Gretchens Stube</h3>
+                            
             </ParallaxLayer>
             
             <ParallaxLayer
@@ -83,7 +91,7 @@ function App() {
                 backgroundSize: 'cover',
                 textAlign: 'center' , position: 'fixed', top: '20%'
             }}
-            ><h3 >Gretchen musste vieles Durchmachen bis sie verrückt im Gefängnis landet.<br></br>
+            ><h3 id="h2">Gretchen musste vieles Durchmachen bis sie verrückt im Gefängnis landet.<br></br>
                 Ihre Naivität und Kindlichkeit waren Gründe ihres Verderbens...
             </h3></ParallaxLayer>
             <ParallaxLayer
@@ -95,52 +103,24 @@ function App() {
                 backgroundImage: `url(${street})`,
                 backgroundSize: 'cover',
                 
-            }}
-            >
-            </ParallaxLayer>
-            <ParallaxLayer
-            offset={3.3}
-            horizontal={false}
-            speed={1}
-            style={{
-                textAlign: 'center',
             }}>
-                <h3 id="h4">Gretchen wurde in einer Straße gefangen und wurde von einem Schrank gefangen.</h3>
-            </ParallaxLayer>
-            <ParallaxLayer
-            offset={4}
-            speed={0.5}
-            factor={2}
-            
-            style={{ 
-                backgroundImage: `url(${schlaf})`,
-                backgroundSize: 'cover'
-            }}>
-            </ParallaxLayer>
-            <ParallaxLayer
-            offset={4.5}
-            speed={1}
-            factor={2}
-            style={{
-                backgroundImage: `url(${schrank})`,
-                backgroundSize: '30% auto',
-                left: '15%',
-            }}
-            ></ParallaxLayer>
-            <ParallaxLayer
-            offset={4.5}
-            speed={1}
-            factor={2}
-            style={{
-                textAlign: 'center',
-            }}
+            <a
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
             >
-                <h3 id="h4">fdd ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, sunt omnis! <br></br>Vitae cupiditate pariatur at repellendus? Doloremque, non. Delectus autem itaque natus ipsam corrupti consequuntur sint soluta sunt ea amet.</h3>
+                {/*<button class="btn-11 custom-btn">dsafdf</button>*/}
+            </a>
+                
             </ParallaxLayer>
         </Parallax>
+        
     </div>
     );
 }
+
+
+
 
 
 export default App;
