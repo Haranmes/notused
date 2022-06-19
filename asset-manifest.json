@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b75e8cf0.css",
-    "main.js": "/static/js/main.752188a5.js",
+    "main.css": "/static/css/main.36704647.css",
+    "main.js": "/static/js/main.e1e3ffdf.js",
+    "static/media/rain.mp4": "/static/media/rain.9243b28f89f51758b47f.mp4",
     "static/media/two.jpg": "/static/media/two.46480e11bfb9307722cb.jpg",
     "static/media/Schlafzimmer.jpg": "/static/media/Schlafzimmer.ecf34467ad8b81f35591.jpg",
-    "static/media/Trees.png": "/static/media/Trees.1db78bd6b55975e506e5.png",
-    "static/media/Straße.jpg": "/static/media/Straße.6ddff5900415dd15fd22.jpg",
+    "static/media/Faust.png": "/static/media/Faust.c184c1e76f0e201b701c.png",
+    "static/media/Gretchen.png": "/static/media/Gretchen.418f7542db290cc6ff42.png",
+    "static/media/GretchenInKerker.jpg": "/static/media/GretchenInKerker.ff60d7d8928696beb233.jpg",
     "static/media/Gretchen.jpg": "/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
     "static/media/black.jpg": "/static/media/black.8fad0f4ebee55cf4a981.jpg",
-    "static/media/schrank.jpg": "/static/media/schrank.c3b27e275d04934c159a.jpg",
-    "static/media/dark.jpg": "/static/media/dark.18f67a0fdae0771bc00a.jpg",
+    "static/media/street.jpg": "/static/media/street.aa78b8cd5a95e1ebfc56.jpg",
     "static/media/fog-1.png": "/static/media/fog-1.f941d9347efb2a3e7d1d.png",
     "static/media/fog-2.png": "/static/media/fog-2.8aeda6af6c952275e3de.png",
-    "static/media/sky.jpg": "/static/media/sky.bb00881bbd33e1dab095.jpg",
+    "static/media/GretchenFaustKuss.jpg": "/static/media/GretchenFaustKuss.e1822960383ceff143d2.jpg",
     "index.html": "/index.html",
-    "main.b75e8cf0.css.map": "/static/css/main.b75e8cf0.css.map",
-    "main.752188a5.js.map": "/static/js/main.752188a5.js.map"
+    "main.36704647.css.map": "/static/css/main.36704647.css.map",
+    "main.e1e3ffdf.js.map": "/static/js/main.e1e3ffdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b75e8cf0.css",
-    "static/js/main.752188a5.js"
+    "static/css/main.36704647.css",
+    "static/js/main.e1e3ffdf.js"
   ]
 }
