@@ -1,24 +1,25 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useRef } from 'react';
 
-import './App.css'
 
-import Gretche from './images/Gretchen.jpg'
-import black from './images/black.jpg'
-import faust from './images/Faust.png'
-import gretchen from './images/Gretchen.png'
-import street from './images/street.jpg'
-import zimmer from './images/Schlafzimmer.jpg'
-import two from './images/two.jpg'
-import rain from './images/rain.mp4'
-import cell from './images/GretchenInKerker.jpg'
-import kussen from './images/GretchenFaustKuss.jpg'
-const App = () => {
-   
+import '../App.css'
+import Gretche from '../images/Gretchen.jpg'
+import black from '../images/black.jpg'
+import faust from '../images/Faust.png'
+import gretchen from '../images/Gretchen.png'
+import street from '../images/street.jpg'
+import two from '../images/two.jpg'
+import rain from '../images/rain.mp4'
+import cell from '../images/GretchenInKerker.jpg'
+import kussen from '../images/GretchenFaustKuss.jpg'
+
+const Landing = () => {
+    
     const ref = useRef();
     return(
         
-        <div id="Home"> 
+        <div id="Landing"> 
+        
         <Parallax pages={11} ref={ref}>
             <ParallaxLayer id="chaos"
             offset={0}
@@ -68,10 +69,11 @@ const App = () => {
             }}
             > 
                
-                <h3 id="h2" style={{left: "30%"}}>"Meine Ruh ist hin, <br></br>
-                            Mein Herz ist schwer; <br></br>
-                            Ich finde sie nimmer <br></br>
-                            und nimmermehr." - <br></br>Gretchen,  Gretchens Stube
+                <h3 id="h2" style={{left: "30%"}}>
+                    "Meine Ruh ist hin, <br></br>
+                    Mein Herz ist schwer; <br></br>
+                    Ich finde sie nimmer <br></br>
+                    und nimmermehr." - <br></br>Gretchen,  Gretchens Stube <br></br>V.3374-3377
                 </h3>
                             
             </ParallaxLayer>
@@ -135,13 +137,7 @@ const App = () => {
                 
             }}>
                
-            {/*<a
-            href="https://haranmes.github.io/book-for-faust/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-                <button class="btn-11 custom-btn">Gretchens Tagebuch</button>
-            </a>*/}
+            
                 
             </ParallaxLayer>
             <ParallaxLayer
@@ -203,7 +199,7 @@ const App = () => {
             style={{
                 left: "30%"
             }}>
-                <h id="h4" style={{fontSize: "4rem", textAlign: "center", }}>Im Garten der Nachbarin</h>
+                <h id="h4" style={{fontSize: "4rem", textAlign: "center", }}>Im Gartenhäuschen der Nachbarin</h>
             </ParallaxLayer>
             <ParallaxLayer
             offset={7.2}
@@ -236,19 +232,14 @@ const App = () => {
                 <h id="h4" style={{fontSize: "1rem", textAlign: "center", color: "white"}}>Jetzt nimmt das Geschehen seinen Lauf...</h>
             </ParallaxLayer>
             <ParallaxLayer
-            offset={8}
+            offset={8.6}
             speed={0.5}
             style={{
-               margin: "0",
-               padding: "0",
-               fontFamily:  "Poppins, sans-serif",
+                color: "white",
+                textAlign: "center",
+                fontSize: "5rem"
             }}>
-                <div id="horror">
-                    <div id="wrapper">
-                        <h1 class="glitch" data-text="Der Anfang des Endes">Der Anfang des Endes</h1>
-                        <p class="red">Gretchens</p>
-                    </div>
-                </div>
+                <h>Es geht weiter im nächstem Kapitel...</h>
             </ParallaxLayer>
         </Parallax>
         
@@ -260,4 +251,4 @@ const App = () => {
 
 
 
-export default App;
+export default Landing;
