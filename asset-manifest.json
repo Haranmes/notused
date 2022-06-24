@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.36704647.css",
-    "main.js": "/static/js/main.e1e3ffdf.js",
+    "main.css": "/static/css/main.02518cf7.css",
+    "main.js": "/static/js/main.6fef4cea.js",
     "static/media/rain.mp4": "/static/media/rain.9243b28f89f51758b47f.mp4",
     "static/media/two.jpg": "/static/media/two.46480e11bfb9307722cb.jpg",
-    "static/media/Schlafzimmer.jpg": "/static/media/Schlafzimmer.ecf34467ad8b81f35591.jpg",
     "static/media/Faust.png": "/static/media/Faust.c184c1e76f0e201b701c.png",
     "static/media/Gretchen.png": "/static/media/Gretchen.418f7542db290cc6ff42.png",
+    "static/media/Spinnrad.jpg": "/static/media/Spinnrad.09f9c266dc3896b7c3b6.jpg",
     "static/media/GretchenInKerker.jpg": "/static/media/GretchenInKerker.ff60d7d8928696beb233.jpg",
     "static/media/Gretchen.jpg": "/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
     "static/media/black.jpg": "/static/media/black.8fad0f4ebee55cf4a981.jpg",
@@ -15,11 +15,11 @@
     "static/media/fog-2.png": "/static/media/fog-2.8aeda6af6c952275e3de.png",
     "static/media/GretchenFaustKuss.jpg": "/static/media/GretchenFaustKuss.e1822960383ceff143d2.jpg",
     "index.html": "/index.html",
-    "main.36704647.css.map": "/static/css/main.36704647.css.map",
-    "main.e1e3ffdf.js.map": "/static/js/main.e1e3ffdf.js.map"
+    "main.02518cf7.css.map": "/static/css/main.02518cf7.css.map",
+    "main.6fef4cea.js.map": "/static/js/main.6fef4cea.js.map"
   },
   "entrypoints": [
-    "static/css/main.36704647.css",
-    "static/js/main.e1e3ffdf.js"
+    "static/css/main.02518cf7.css",
+    "static/js/main.6fef4cea.js"
   ]
 }
