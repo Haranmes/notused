@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9e70534d.css",
-    "main.js": "/static/js/main.d1a740bb.js",
+    "main.js": "/static/js/main.37d5e190.js",
+    "static/js/845.ee66a780.chunk.js": "/static/js/845.ee66a780.chunk.js",
     "static/media/rain.mp4": "/static/media/rain.9243b28f89f51758b47f.mp4",
     "static/media/two.jpg": "/static/media/two.46480e11bfb9307722cb.jpg",
     "static/media/Faust.png": "/static/media/Faust.c184c1e76f0e201b701c.png",
     "static/media/Gretchen.png": "/static/media/Gretchen.418f7542db290cc6ff42.png",
     "static/media/Spinnrad.jpg": "/static/media/Spinnrad.09f9c266dc3896b7c3b6.jpg",
     "static/media/GretchenInKerker.jpg": "/static/media/GretchenInKerker.ff60d7d8928696beb233.jpg",
+    "static/media/strangedrone06-21845.mp3": "/static/media/strangedrone06-21845.3ba6e1a14a9478758665.mp3",
     "static/media/Gretchen.jpg": "/static/media/Gretchen.fe5d41da67bbb3abc820.jpg",
     "static/media/black.jpg": "/static/media/black.8fad0f4ebee55cf4a981.jpg",
     "static/media/street.jpg": "/static/media/street.aa78b8cd5a95e1ebfc56.jpg",
@@ -16,10 +18,11 @@
     "static/media/GretchenFaustKuss.jpg": "/static/media/GretchenFaustKuss.e1822960383ceff143d2.jpg",
     "index.html": "/index.html",
     "main.9e70534d.css.map": "/static/css/main.9e70534d.css.map",
-    "main.d1a740bb.js.map": "/static/js/main.d1a740bb.js.map"
+    "main.37d5e190.js.map": "/static/js/main.37d5e190.js.map",
+    "845.ee66a780.chunk.js.map": "/static/js/845.ee66a780.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e70534d.css",
-    "static/js/main.d1a740bb.js"
+    "static/js/main.37d5e190.js"
   ]
 }
