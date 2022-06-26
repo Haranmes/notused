@@ -1,0 +1,259 @@
+
+@import url("https://fonts.googleapis.com/css?family=Cute+Font&display=swap");
+.container {
+  position: absolute;
+  
+  background: #333;
+  width: 100%;
+  height: 100%;
+  -moz-filter: contrast(50);
+  -ms-filter: contrast(50);
+  -o-filter: contrast(50);
+  filter: contrast(50);
+}
+
+#taxt {
+    font-family: "Cute Font", cursive;
+    top: 60%;
+}
+.potion {
+  position: absolute;
+  top: calc(50% - 95px);
+  left: calc(50% - 75px);
+  width: 150px;
+  height: 190px;
+  border-radius: 90% 90% 70% 70%;
+  overflow: hidden;
+}
+.potion__top {
+  position: absolute;
+  top: -80px;
+  left: 35px;
+  width: 45px;
+  height: 82px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  background: #333;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.potion__top:before {
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 20px;
+  background: #fff;
+}
+.potion__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 11px;
+  width: 125px;
+  height: 115px;
+  border-radius: 90% 90% 70% 70%;
+  border: 5px solid #fff;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.drop {
+  position: absolute;
+  background: red;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+}
+.drop:nth-of-type(1) {
+  --max: translateY(0px) scale(1);
+  --min: translateY(50px) scale(1);
+  left: 45px;
+  transform: translateY(50px);
+  -webkit-animation: drop 2.4s ease-in-out 1s alternate infinite;
+  animation: drop 2.4s ease-in-out 1s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.drop:nth-of-type(2) {
+  --max: translateY(-60px) scale(0.5);
+  --min: translateY(50px) scale(0.5);
+  left: 45px;
+  transform: translateY(50px);
+  -webkit-animation: drop 4s ease-in-out 3s alternate infinite;
+  animation: drop 4s ease-in-out 3s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.drop:nth-of-type(3) {
+  --max: translateY(10px) scale(0.2);
+  --min: translateY(50px) scale(0.2);
+  left: 10px;
+  transform: translateY(50px);
+  -webkit-animation: drop 6s ease-in-out 2.2s alternate infinite;
+  animation: drop 6s ease-in-out 2.2s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.drop:nth-of-type(4) {
+  --max: translateY(20px) scale(0.8);
+  --min: translateY(50px) scale(0.8);
+  left: 70px;
+  transform: translateY(50px);
+  -webkit-animation: drop 3s ease-in-out 3.8s alternate infinite;
+  animation: drop 3s ease-in-out 3.8s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.drop:nth-of-type(5) {
+  --max: translateY(10px) scale(0.2);
+  --min: translateY(50px) scale(0.2);
+  left: 80px;
+  transform: translateY(50px);
+  -webkit-animation: drop 6s ease-in-out 1.8s alternate infinite;
+  animation: drop 6s ease-in-out 1.8s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.drop:nth-of-type(6) {
+  --max: translateY(10px) scale(0.3);
+  --min: translateY(50px) scale(0.3);
+  left: 20px;
+  transform: translateY(50px);
+  -webkit-animation: drop 5s ease-in-out 3s alternate infinite;
+  animation: drop 5s ease-in-out 3s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes drop {
+  from {
+    transform: var(--min);
+  }
+  40% {
+    transform: var(--max);
+  }
+  90% {
+    transform: var(--min);
+  }
+  to {
+    transform: var(--min);
+  }
+}
+
+@keyframes drop {
+  from {
+    transform: var(--min);
+  }
+  40% {
+    transform: var(--max);
+  }
+  90% {
+    transform: var(--min);
+  }
+  to {
+    transform: var(--min);
+  }
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 4em;
+  height: 4em;
+  border-radius: 90% 90% 70% 70%;
+  background: red;
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+}
+.wave:before {
+  top: 0px;
+  width: 51px;
+  height: 40px;
+  background: red;
+}
+.wave:after {
+  width: 65px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 30%;
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+  transform: translateY(25px);
+}
+.wave--left {
+  left: 8px;
+}
+.wave--left:before {
+  left: -10px;
+}
+.wave--left:after {
+  left: 10px;
+  -webkit-animation: wave 5s 0s alternate infinite;
+  animation: wave 5s 0s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.wave--right {
+  right: 8px;
+}
+.wave--right:before {
+  right: -10px;
+}
+.wave--right:after {
+  right: 10px;
+  -webkit-animation: wave 5s 2.5s alternate infinite;
+  animation: wave 5s 2.5s alternate infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes wave {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+@keyframes wave {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+p {
+  position: absolute;
+  bottom: calc(50% - 135px);
+  left: calc(50% - 100px);
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  
+  margin: 0;
+}
+
+*:before, *:after {
+  position: absolute;
+  content: "";
+}

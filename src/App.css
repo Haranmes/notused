@@ -437,13 +437,13 @@ skew to change the 'thickness' of the glitch.*/
   56% {
     clip: rect(29px, 9999px, 81px, 0);
     transform: skew(0.86deg);
-  }
-  60% {
-    clip: rect(1px, 9999px, 32px, 0);
-    transform: skew(0.12deg);
-  }
-  64% {
-    clip: rect(84px, 9999px, 21px, 0);
+  } 
+  60% { 
+    clip: rect(1px, 9999px, 32px, 0); 
+    transform: skew(0.12deg); 
+  } 
+  64% { 
+    clip: rect(84px, 9999px, 21px, 0); 
     transform: skew(0.11deg);
   }
   68% {
@@ -687,3 +687,4 @@ skew to change the 'thickness' of the glitch.*/
     transform: translate(-10%, 10%);
   }
 }
+
