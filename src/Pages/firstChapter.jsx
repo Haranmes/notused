@@ -3,6 +3,7 @@ import { useRef } from 'react';
 
 
 import '../App.css'
+
 import Gretche from '../images/Gretchen.jpg'
 import black from '../images/black.jpg'
 import faust from '../images/Faust.png'

@@ -19,13 +19,7 @@ function App() {
             <TabList>
                 <Tab style={{color: "white"}}>Kapitel 1</Tab>
                 <Tab style={{color: "white"}}>Kapitel 2</Tab>
-                <a
-                    href="https://haranmes.github.io/book-for-faust/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Button style={{marginLeft: "10px", marginBottom: "5px"}} btnStyle="primary">Gretchens Tagebuch</Button>
-                </a>
+               
             </TabList>
             <TabPanel>
                 <Landing/>

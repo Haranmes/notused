@@ -688,3 +688,16 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 
+.fade-in {
+	animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
