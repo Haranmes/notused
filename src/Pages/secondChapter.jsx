@@ -274,7 +274,7 @@ function SecondChapter() {
           offset={9.4}
           speed={0.7}
           >
-            <h id="h1" style={{textAlign: "center", position: "relative", left: "70%"}}>Gretchen ertrank ihr Baby.</h>
+            <h id="h1" style={{textAlign: "center", position: "relative", left: "70%"}}>Gretchen ertrank ihr Kind.</h>
           </ParallaxLayer>
           <ParallaxLayer
           offset={10}
@@ -348,7 +348,7 @@ function SecondChapter() {
           style={{
             textAlign: "center"
           }}>
-            <h id="h3">...jedoch hat sie ihre ganze Familie verloren und traut sich nicht mehr zu Faust</h>
+            <h id="h3" style={{fontSize: "3rem"}}>...jedoch hat sie ihre ganze Familie verloren und traut sich nicht mehr zu Faust</h>
           </ParallaxLayer>
         </Parallax>
     </div>

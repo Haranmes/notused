@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SecondChapter from './Pages/secondChapter';
 import Landing from './Pages/firstChapter';
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import  { Button }  from 'react-bootstrap-buttons';
  
@@ -19,7 +20,14 @@ function App() {
             <TabList>
                 <Tab style={{color: "white"}}>Kapitel 1</Tab>
                 <Tab style={{color: "white"}}>Kapitel 2</Tab>
-               
+                <a
+                    className="App-link"
+                    href="https://haranmes.github.io/Quiz/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Button variant="primary" style={{marginLeft: "5px", marginBottom: "2px"}}>Zum Quiz</Button>
+                </a>
             </TabList>
             <TabPanel>
                 <Landing/>
@@ -27,6 +35,7 @@ function App() {
             <TabPanel>
                 <SecondChapter/>
             </TabPanel>
+            
         </Tabs>
   
         

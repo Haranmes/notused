@@ -39,9 +39,10 @@ const Landing = () => {
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-            style={{ textAlign: 'center', 
-                top: '6%',
-                left: '10%'
+            offset={0.1}
+            style={{ 
+                textAlign: 'center', 
+                
             }}
             speed={0.7}
             >
@@ -54,7 +55,7 @@ const Landing = () => {
             style={{
                 backgroundImage: `url(${Gretche})`,
                 backgroundSize: '20% auto',
-                left: '15%',
+                left: "40%"
             }}
            
             ></ParallaxLayer>
